@@ -45,10 +45,6 @@ Recent MLLMs adopt a **Think-with-Image** paradigm to iteratively revisit visual
 
 ## 🏗️ Method
 
-<div align=center>
-<img src="sources/fig2.png" width="100%" alt="method-overview"/>
-</div>
-
 ### Hierarchical Scene Graph Construction
 
 - **Compositional Node Mining:** Recursively decomposes objects into hierarchical components to construct fine-grained scene graph nodes.
@@ -56,13 +52,17 @@ Recent MLLMs adopt a **Think-with-Image** paradigm to iteratively revisit visual
 - **Relation Construction:** Builds semantic and spatial graph edges from node-level priors.
 
 <div align=center>
-<img src="sources/fig3.png" width="100%" alt="method-overview"/>
+<img src="sources/fig2.png" width="100%" alt="method-overview"/>
 </div>
 
 ### Node-as-Proxy Reinforcement Learning
 
 - **Node-grounded Reward:** Encourages reasoning trajectories that are grounded in the corresponding visual regions.
 - **Node-relevance Reward:** Promotes efficient graph exploration through query-aware rewards over scene graph nodes.
+
+<div align=center>
+<img src="sources/fig3.png" width="100%" alt="method-overview"/>
+</div>
 
 
 ## 🎯 Models and Datasets
