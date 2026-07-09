@@ -37,7 +37,7 @@
 
 ## 🚀 Overview
 
-Recent MLLMs adopt a **Think-with-Image** paradigm to iteratively revisit visual evidence during reasoning. However, existing approaches primarily focus on isolated objects while overlooking structured visual relationships, limiting efficient target navigation and complex visual reasoning. We introduce **SaGe** (3B/7B), a structured visual reasoning framework that explicitly models scene graphs throughout the reasoning process. By leveraging automatically constructed graph reasoning data and graph-aligned post-training, SaGe achieves **state-of-the-art performance among open-source MLLMs on multimodal perception benchmarks**. Our highlights are as f
+Recent MLLMs adopt a **Think-with-Image** paradigm to iteratively revisit visual evidence during reasoning. However, existing approaches primarily focus on isolated objects while overlooking structured visual relationships, limiting efficient target navigation and complex visual reasoning. We introduce **SaGe** (3B/7B), a structured visual reasoning framework that explicitly models scene graphs throughout the reasoning process. By leveraging automatically constructed graph reasoning data and graph-aligned post-training, SaGe achieves **state-of-the-art performance among open-source MLLMs on multimodal perception benchmarks**. Our highlights are as follow:
 
 - **📊 Automated Graph Data Engine:** A scalable pipeline that transforms image-text pairs into high-quality scene-graph reasoning data with minimal human annotation.
 - **🧠 Graph-Aligned Post-Training:** A two-stage training framework combining supervised fine-tuning with graph-aware reinforcement learning for hierarchical graph reasoning.
