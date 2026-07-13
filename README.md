@@ -24,7 +24,7 @@
 ## 📰 News
 
 - **Jan. 30, 2026:** SaGe was submitted.
-- **May 1, 2026:** 🎉 DiCLIP was accepted to **ICML 2026**.
+- **May 1, 2026:** 🎉 SaGe was accepted to **ICML 2026**.
 
 🚧 **The code and datasets are currently under internal review due to company policy and will be released once the review process is complete. Thank you for your patience! 🤗**
 
