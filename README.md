@@ -90,7 +90,7 @@ Source image pools:
 
 ```bash
 git clone https://github.com/zwyang66/SaGe.git
-cd Zooming-without-Zooming
+cd SaGe
 pip install -r requirements.txt
 cd verl
 pip install -e . # please refer to the official repo of SAM3 for detailed installation
